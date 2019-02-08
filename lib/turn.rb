@@ -5,7 +5,7 @@ def turn(board)
   if ! valid_move?(board, input_as_index) 
     turn(board)
   else
-    move(board input_as_index)
+    move(board, input_as_index)
     display_board(board)
   end  
 end
