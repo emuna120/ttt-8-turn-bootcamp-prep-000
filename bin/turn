@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 def turn
-  
+  input = gets.strip
 end
 
 def display_board(board)
