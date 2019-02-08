@@ -24,10 +24,8 @@ end
 
 def move(board, position, player = "X")
   
-  if board[position] == " "
+  
     board[position] = player
-  else
-    puts "position already taken, next player please"
-  end
+  
   return board
 end
