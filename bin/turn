@@ -1,9 +1,10 @@
 #!/usr/bin/env ruby
 def turn
+  
   puts "Where do you want to go?"
   puts "Please enter a whole number from one to nine inclusive"
   input = gets.strip
-  input_to_index(input)
+  index = input_to_index(input)
 end
 
 def display_board(board)
