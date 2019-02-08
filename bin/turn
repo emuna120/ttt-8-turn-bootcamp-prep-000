@@ -11,7 +11,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-# code your input_to_index and move method here!
+# 
 def input_to_index(user_input)
   if user_input.is_a?Array
     user_input_int = user_input.join.to_i
@@ -24,8 +24,7 @@ end
 
 def move(board, position, player = "X")
   
-  
-    board[position] = player
+  board[position] = player
   
   return board
 end
